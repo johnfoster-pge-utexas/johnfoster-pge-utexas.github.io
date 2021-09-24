@@ -1,4 +1,7 @@
-on: push
+on: 
+  push:
+  repository_dispatch:
+    types: [trigger]
 jobs:
   build-website:
     runs-on: "ubuntu-latest"
