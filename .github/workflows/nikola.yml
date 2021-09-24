@@ -24,4 +24,4 @@ jobs:
         run: nikola build
       - name: Deploy to Github 
         shell: bash -l {0}
-        run: ghp-import -p -f -n -m "Nikola auto commit" output
+        run: ghp-import -p -f -n -m "Nikola auto commit" -c "johnfoster.pge.utexas.edu" output
