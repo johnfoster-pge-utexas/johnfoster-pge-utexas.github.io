@@ -1,0 +1,4 @@
+Sitemap: http://johnfoster.pge.utexas.edu/sitemapindex.xml
+
+User-Agent: *
+Host: johnfoster.pge.utexas.edu
