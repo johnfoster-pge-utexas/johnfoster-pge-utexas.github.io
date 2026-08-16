@@ -94,7 +94,6 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/cv/", "CV"),
-        ("/calendar/", "Calendar"),
         ("/courses/", "Courses"),
         ("/repos/", "Paper Repositories"),
         ("/blog/", "Personal Blog"),
@@ -172,7 +171,6 @@ PAGES = (
     ("stories/*.md", "", "story.tmpl"),
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
-    ("calendar/*.rst", "calendar", "calendar.tmpl"),
     ("cv/*.rst", "cv", "notitle.tmpl"),
     ("courses/*.md", "courses", "notitle.tmpl"),
     ("repos/*.md", "repos", "notitle.tmpl"),
